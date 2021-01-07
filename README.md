@@ -3,6 +3,369 @@
  
  ![giphy (aaaaa](https://user-images.githubusercontent.com/61892998/94351171-97c89c80-002c-11eb-9c10-44bdf5d426ae.gif)
 
+ # RoadMap
+**Programming**
+- [X] Dart
+
+**UI**
+**WIDGETS**
+- [ ] Statelss Widget
+- [ ] StateFull Widget
+- [ ] Accessibility
+- [ ] Inherited Widget
+    - [ ] Theming
+    - [ ] Localization
+- [ ] Style 
+    - [ ] Material
+    - [ ] Cupertino
+
+**ASSETS**
+- [ ] Fonts
+- [X] Images
+- [ ] SVG
+- [ ] Audio e Video
+
+**Static User Interface**
+- [ ] View
+    - [X] Text
+    - [X] Button
+    - [X] Image
+- [ ] ViewGroup 
+    - [X] Container
+    - [X] Row
+    - [X] Column
+    - [X] Expanded
+    - [ ] ConstrainedBox
+
+
+**Dynamic User Interface**
+- [ ] ListView
+- [ ] GridView
+- [ ] ExpansionTitle 
+
+**Animations**
+- [ ] AnimatedWidget
+- [ ] AnimatedBuilder
+- [ ] AnimationController
+- [ ] CurvedAnimation
+- [ ] Hero
+- [ ] Opacity
+
+**Storage**
+- [ ] Shared Preference
+- [ ] File System
+- [ ] SqLite
+
+**3rd Party Libraries**
+- [ ] http 
+- [ ] dio 
+- [ ] get_it
+- [ ] cached_network_image
+- [ ] font_awesome_flutter
+- [ ] SQFlite
+- [ ] Flutter_webview_plugin
+- [ ] rxdart 
+- [ ] bloc_pattern
+
+**Behavior Components**
+- [ ] Media Playback
+- [ ] Preference
+- [ ] Permission
+- [ ] Local Notification
+- [ ] Push Notification
+- [ ] Download Manager
+
+**State Management**
+- [ ] setState
+- [ ] Provider 
+- [ ] Redux 
+- [ ] Bloc 
+- [ ] Mobx 
+- [ ] GetX 
+
+**Quality Assurance**
+- [ ] Firebase 
+    - [ ] Crashlytics 
+    - [ ] App distribution
+    - [ ] Analytics 
+- [ ] Google play beta tests 
+- [ ] TestFlight 
+- [ ] App Center
+
+**Firebase** 
+- [ ] Auth
+- [ ] Database
+- [ ] Storage
+- [ ] Messaging
+
+
+
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+# Sign in 
+* [Google sign-in & Firebase authentication using Flutter](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)
+* [Google Sign In With Flutter](https://medium.com/flutterdevs/google-sign-in-with-flutter-8960580dec96)
+* [Flutter: Implementing Google Sign In](https://medium.com/flutter-community/flutter-implementing-google-sign-in-71888bca24ed)
+* [Google Sign in With Auto-Login in Flutter](https://medium.com/swlh/google-sign-in-with-auto-login-in-flutter-93281747bed4)
+* [Flutter Web: Firebase Authentication and Google Sign-In](https://medium.com/flutter-community/flutter-web-firebase-authentication-and-google-sign-in-33ef84a70b71)
+* [Authenticate with a Gmail Account in your Flutter apps using Firebase Authentication](https://medium.com/flutter-communityauthenticate-with-a-gmail-account-in-your-flutter-apps-using-firebase-authentication-9cbf95796157)
+* [Setup Google Login for Flutter apps](https://medium.com/inspireui/setup-google-login-for-flutter-apps-fedc58a490b8)
+* [Social Authentication](https://firebase.flutter.dev/docs/auth/social/)
+
+# Tutoriais 
+* [Flutter Tutorials Handbook](https://kodestat.gitbook.io/flutter/)
+* [flutter-tutorials](https://github.com/FilledStacks/flutter-tutorials)
+* [Creating a note-taking app in Flutter/Dart](https://medium.com/aubergine-solutions/creating-a-note-taking-app-in-flutter-dart-f50852993cd0)
+
+# Testes
+* [Writing Testable Code](https://medium.com/feedzaitech/writing-testable-code-b3201d4538eb)
+* [Testing Flutter apps](https://flutter.dev/docs/testing)
+* [Comece pelo teste](https://dev.to/enrsaid/comece-pelos-testes-4bke)
+* [Testes de unidade e Widget com mocks: Boas práticas no Flutter](https://www.alura.com.br/conteudo/testes-widgets-flutter)
+* [Testes unitários — Dart e Flutter](https://medium.com/cristiano-cunhatestes-automatizados-dart-cf9df0e741ab)
+* [CI/CD for Flutter Apps Using GitHub Actions](https://medium.com/better-programming/ci-cd-for-flutter-apps-using-github-actions-b833f8f7aac)
+* [Testing Widgets with Flutter. Basics.](https://medium.com/@ariedov/testing-widgets-with-flutter-basics-9b40ccc488bf)
+[]()
+[]()
+[]()
+[]()
+[]()
+
+
+# API's
+* [Consumindo API utilizando o Dio](https://medium.com/flutterandoconsumindo-api-utilizando-o-dio-9ec72aeceeaa)
+* [Rest API in Flutter](https://medium.com/flutterdevs/using-rest-api-in-flutter-d19e6eb972b8)
+* [Design de API Rest](https://medium.com/@wssilva.willian/design-de-api-rest-9807a5b16c9f)
+* [awesome-flutter-packages](https://github.com/leisim/awesome-flutter-packages/blob/master/README.md)
+* [Flutter API reference documentation](https://api.flutter.dev/)
+* [Aprendendo a consumir uma API no Flutter em 1 minuto.](https://medium.com/flutterando/aprendendo-a-consumir-uma-api-no-flutter-em-1-minuto-b03c2f93f9af)
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+
+
+# Packages
+* [Awesome Flutter Packages](https://awesomeopensource.com/project/leisim/awesome-flutter-packages)
+* [getwidget](https://pub.dev/packages/getwidget)
+* [superpower](https://github.com/leisim/superpower)
+* [slimy_card](https://pub.dev/packages/slimy_card)
+* [Publicando seus packages no pub.dev](https://medium.com/flutterando/publicando-seus-packages-no-pub-dev-4a1382a98ab2)
+* [Seu primeiro package em Flutter/Dart + TDD](https://medium.com/oiluna/seu-primeiro-package-em-dart-flutter-tdd-88de0c5d1fd5)
+* [pin_code_fields](https://pub.dev/packages/pin_code_fields)
+* [sleek_circular_slider](https://pub.dev/packages/sleek_circular_slider)
+* [bottom_navy_bar](https://pub.dev/packages/bottom_navy_bar)
+* [syntax_highlighter](https://pub.dev/packages/syntax_highlighter?fbclid=IwAR3Iw1J-nJvKuWKqACMA5JzRNC-FZdlZA1ZJ7gHPN3k1pBPOBhrrbRWkyLU)
+[]()
+[]()
+[]()
+
+# Design
+* [Material Design](https://material.io/)
+* [Design Patterns: Strategy Pattern in Dart](https://medium.com/flutter-community/design-patterns-strategy-pattern-in-dart-7c833812d58d)
+[]()
+[]()
+[]()
+[]()
+[]()
+
+# Sites
+* [Flutter Brasil](https://www.flutterbrasil.com/)
+* [Google Developer](https://developers.google.com/learn/pathways)
+* [Flutter Catalog](https://x-wei.github.io/flutter_catalog/#/)
+* [Flutter Open](https://flutteropen.gitbook.io/flutter-widgets/)
+[]()
+
+# Arquiterura
+* [flutter architecture samples](https://github.com/brianegan/flutter_architecture_samples)
+* [S.O.L.I.D The first 5 principles of Object Oriented Design with Dart](https://medium.com/flutter-community/s-o-l-i-d-the-first-5-principles-of-object-oriented-design-with-dart-f31d62135b7e)
+* [Flutter and Clean Architecture](https://rodrigolmti.medium.com/clean-architecture-no-flutter-1888c4baa6bc)
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
+
+# Dart
+* [dartx](https://github.com/leisim/dartx)
+* [Dart: What are mixins?](https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3)
+* [Top 10 Array utility methods you should know - Dart](https://codeburst.io/top-10-array-utility-methods-you-should-know-dart-feb2648ee3a2)
+* [Dart Methods That Every Beginner Should Learn](https://medium.com/better-programming/dart-methods-for-beginners-2ce4a9d8e686)
+* [awesome-dart-pad](https://github.com/divyanshub024/awesome-dart-pad)
+[]()
+[]()
+[]()
+
+# Widgets
+* [Widget Book](https://flutter-widget.live/widgets/LinearProgressIndicator)
+* [Flutter: Sliders DeMystified](https://medium.com/flutter-community/flutter-sliders-demystified-4b3ea65879c)
+* [Custom sliders in Flutter](https://medium.com/koahealth/custom-sliders-in-flutter-7b53087f4b13)
+* [A Deep Dive Into PageView In Flutter With Custom Transitions](https://medium.com/flutter-community/a-deep-dive-into-pageview-in-flutter-with-custom-transitions-581d9ea6dded)
+* [A Deep Dive Into Transform Widgets in Flutter](https://medium.com/flutter-community/a-deep-dive-into-transform-widgets-in-flutter-4dc32cd575a9)
+* [Container: Flutter’s widget of the week on Focus](https://medium.com/@suluhucode/1-container-flutters-widget-of-the-week-on-focus-55d26160685f)
+* [SnackBar](https://medium.com/@niebin312)
+[]()
+[]()
+[]()
+
+# Youtube
+* [Dart Beginners Course](https://www.youtube.com/watch?v=kr86cFnO6Os&list=PLNnAcB93JKV9YAl4QDygDEMfplrt5uUUx&ab_channel=CodeWithAndrea)
+[]()
+[]()
+[]()
+
+# Repositorios
+* [flutter-app-covid19-with-tests](https://github.com/murilosandiego/flutter-app-covid19-with-tests)
+* [samples](https://github.com/flutter/samples)
+* [flutter-tdd-clean-architecture-course](https://github.com/ResoCoder/flutter-tdd-clean-architecture-course/tree/master/lib)
+* [Instagram-Clone](https://github.com/mohak1283/Instagram-Clone)
+* [flutter-examples](https://github.com/nisrulz/flutter-examples)
+* [flutter-challenges](https://github.com/javico2609/flutter-challenges)
+* [FlutterFoodybite](https://github.com/JideGuru/FlutterFoodybite)
+* [flutter-samples](https://github.com/diegoveloper/flutter-samples)
+* [flutter_ibm_watson](https://github.com/VictorRancesCode/flutter_ibm_watson/tree/master/example/lib)
+* [whatsApp_clone](https://github.com/amirk3321/whatsApp_clone)
+* [flutter-samples](https://github.com/br-programmer/flutter-samples)
+* [drawapp](https://github.com/superjakegough/drawapp)
+* [Progress State Button](https://github.com/slm/progress-state-button)
+* [flutter_candies](https://github.com/fluttercandies/Flutter_Candies)
+* [samples](https://github.com/liemvo/samples)
+* [Dart_DataStructure_Algorithm](https://github.com/liemvo/Dart_DataStructure_Algorithm)
+* [udacity-course](https://github.com/liemvo/udacity-course/tree/master/course)
+* [Welcome-Login-Signup-Page-Flutter](https://github.com/abuanwar072/Welcome-Login-Signup-Page-Flutter)
+* [LoginRegister](https://github.com/pinkeshdarji/LoginRegister/tree/master/lib/ui/onboarding)
+* [flutter_login_signup](https://github.com/TheAlphamerc/flutter_login_signup)
+* [FlutterExampleApps](https://github.com/afgprogrammer/FlutterExampleApps)
+* [Flutter-Food-Delivery](https://github.com/LiveLikeCounter/Flutter-Food-Delivery)
+* [food-delivery-flutter](https://github.com/DevStack06/food-delivery-flutter)
+* [flutter_food_delivery_ui](https://github.com/cagladogancay/flutter_food_delivery_ui)
+* [food_delivery_flutter_ui](https://github.com/Abdullah-Zakhoi/food_delivery_flutter_ui)
+* [Flutter-food-delivery-app-ui](https://github.com/afgprogrammer/Flutter-food-delivery-app-ui)
+* [flutter-ui-nice](https://github.com/nb312/flutter-ui-nice)
+* [flutter-challenges](https://github.com/javico2609/flutter-challenges/tree/master/lib)
+* [Flutter-UI-Kit](https://github.com/usman18/Flutter-UI-Kit)
+* [my_flutter_ui_challenges](https://github.com/ch-muhammad-adil/my_flutter_ui_challenges)
+* [FlutterSocialAppUIKit](https://github.com/JideGuru/FlutterSocialAppUIKit)
+* [flutter_ui_challenge_book_grocer](https://github.com/mukireus/flutter_ui_challenge_book_grocer)
+* [Covid-19-Flutter-UI](https://github.com/abuanwar072/Covid-19-Flutter-UI)
+* [Flutter-Story-App-UI](https://github.com/devefy/Flutter-Story-App-UI)
+* [flutter-examples](https://github.com/syncfusion/flutter-examples)
+* [flutter_ui_collection](https://github.com/iharshb/flutter_ui_collection)
+* [FlutterUITemplates](https://github.com/bimsina/FlutterUITemplates)
+* [E-Commerce Complate Flutter UI Staring code](https://github.com/abuanwar072/E-commerce-Complete-Flutter-UI)
+* [planets-flutter](https://github.com/sergiandreplace/planets-flutter)
+* [flutter_apps](https://github.com/pacifio/flutter_apps)
+* [dashboard_reborn](https://github.com/urmilshroff/dashboard_reborn)
+* [flutter_ui_challenges](https://github.com/lohanidamodar/flutter_ui_challenges#code-examples)
+* [flutter-examples](https://github.com/TakeoffAndroid/flutter-examples)
+* [flutter_awesome_design_pages](https://github.com/kalismeras61/flutter_awesome_design_pages)
+* [flutter_home_services_demo](https://github.com/flutter-devs/flutter_home_services_demo)
+* [GDG-DevFest-App](https://github.com/iampawan/GDG-DevFest-App)
+* [pet_finder](https://github.com/aliffauzi/pet_finder)
+* [DeliveryApp-Flutter-UI](https://github.com/aliffauzi/DeliveryApp-Flutter-UI)
+* [FlutterUI-Redesigns](https://github.com/aliffauzi/FlutterUI-Redesigns)
+* [invmovieconcept1](https://github.com/aliffauzi/invmovieconcept1)
+* [Plant-Shop-App-UI](https://github.com/aliffauzi/Plant-Shop-App-UI)
+* [airbnb-flutter-clone](https://github.com/aliffauzi/airbnb-flutter-clone)
+* [mangabuzz](https://github.com/aliffauzi/mangabuzz)
+* [flutter-UIs-Practice](https://github.com/aliffauzi/flutter-UIs-Practice)
+* [flutter_projects](https://github.com/aliffauzi/flutter_projects)
+* [flutter-laundry-template](https://github.com/aliffauzi/flutter-laundry-template)
+* [netflix-clone](https://github.com/aliffauzi/netflix-clone)
+* [ESP8266-RGB-LED-Strip-using-Flutter](https://github.com/aliffauzi/ESP8266-RGB-LED-Strip-using-Flutter)
+* [Flutter-Movies4U](https://github.com/aliffauzi/Flutter-Movies4U)
+* [flutter_bnb_v2](https://github.com/aliffauzi/flutter_bnb_v2)
+* [fundall](https://github.com/aliffauzi/fundall)
+* [cakedetector](https://github.com/aliffauzi/cakedetector)
+* [luna_learning](https://github.com/aliffauzi/luna_learning)
+* [timeline_tile](https://github.com/aliffauzi/timeline_tile)
+* [Travel-App-UI-using-Flutter](https://github.com/aliffauzi/Travel-App-UI-using-Flutter)
+* [facebook_ui_flutter](https://github.com/aliffauzi/facebook_ui_flutter)
+* [Jet-Coffee-Shop](https://github.com/aliffauzi/Jet-Coffee-Shop)
+* [Jet-Hotels](https://github.com/aliffauzi/Jet-Hotels)
+* [Tokopedia-UI-Clone-With-Flutter](https://github.com/aliffauzi/Tokopedia-UI-Clone-With-Flutter)
+* [social-media-app-completed](https://github.com/aliffauzi/social-media-app-completed)
+* [booking-management-dashboard](https://github.com/aliffauzi/booking-management-dashboard)
+* [FileX](https://github.com/aliffauzi/FileX)
+* [Flutter-Web-Music](https://github.com/aliffauzi/Flutter-Web-Music)
+* [linkedIn-clone](https://github.com/aliffauzi/linkedIn-clone)
+* [PetShop](https://github.com/aliffauzi/PetShop)
+* [clock2](https://github.com/aliffauzi/clock2)
+* [car-rental-app-ui](https://github.com/aliffauzi/car-rental-app-ui)
+* [Money-Manager-Expenses-tracker-app](https://github.com/aliffauzi/Money-Manager-Expenses-tracker-app)
+* [E-commerce-Complate-Flutter-UI](https://github.com/aliffauzi/E-commerce-Complate-Flutter-UI)
+* [flutter_facebook_responsive_ui](https://github.com/aliffauzi/flutter_facebook_responsive_ui)
+* [app.mobile.tiktok-app-ui](https://github.com/aliffauzi/app.mobile.tiktok-app-ui)
+* [flutter-pizza](https://github.com/aliffauzi/flutter-pizza)
+* [SwiggyUI](https://github.com/aliffauzi/SwiggyUI)
+* [flutter-fruit-ninja-clone](https://github.com/aliffauzi/flutter-fruit-ninja-clone)
+* [flutter-getx-concept](https://github.com/aliffauzi/flutter-getx-concept)
+* [brothers](https://github.com/aliffauzi/brothers)
+* [Inshorts-Clone-The-News-App](https://github.com/aliffauzi/Inshorts-Clone-The-News-App)
+* [my-flutter-challenges](https://github.com/aliffauzi/my-flutter-challenges)
+* [flutter_twitter_clone](https://github.com/aliffauzi/flutter_twitter_clone)
+* [homecleaning](https://github.com/aliffauzi/homecleaning)
+* [redesign-starbucks](https://github.com/aliffauzi/redesign-starbucks)
+* [Flutter-DashBoard-Blog-UI](https://github.com/aliffauzi/Flutter-DashBoard-Blog-UI)
+* [flutter-salon-app](https://github.com/aliffauzi/flutter-salon-app)
+* [Wanasa-App](https://github.com/aliffauzi/Wanasa-App)
+* [covid_tracker](https://github.com/aliffauzi/covid_tracker)
+* [social_chat_ui](https://github.com/aliffauzi/social_chat_ui)
+* [The_Holy_Quran_App](https://github.com/aliffauzi/The_Holy_Quran_App)
+* [customslider](https://github.com/aliffauzi/customslider)
+* [Flutter-Book-Movie-UI](https://github.com/aliffauzi/Flutter-Book-Movie-UI)
+* [Flutter-Ordering-App-UI](https://github.com/aliffauzi/Flutter-Ordering-App-UI)
+* [flutter_covid_dashboard_ui](https://github.com/aliffauzi/flutter_covid_dashboard_ui)
+* [elearning](https://github.com/aliffauzi/elearning)
+* [Medico_Application](https://github.com/aliffauzi/Medico_Application)
+* [Flutter-covid19](https://github.com/aliffauzi/Flutter-covid19)
+* [Snake-Game-Flutter](https://github.com/aliffauzi/Snake-Game-Flutter)
+* [Covid19-Tracker-App](https://github.com/aliffauzi/Covid19-Tracker-App)
+* [flutterBird](https://github.com/aliffauzi/flutterBird)
+* [FlutterIOT](https://github.com/aliffauzi/FlutterIOT)
+* [C0VID-19-Flutter-UI](https://github.com/aliffauzi/C0VID-19-Flutter-UI)
+* [FlutterChatAppTutorial](https://github.com/aliffauzi/FlutterChatAppTutorial)
+* [flutter_healthcare_app](https://github.com/aliffauzi/flutter_healthcare_app)
+* [Family-App](https://github.com/aliffauzi/Family-App)
+* [Y-Academy](https://github.com/aliffauzi/Y-Academy)
+* [flutter-task-planner-app](https://github.com/aliffauzi/flutter-task-planner-app)
+* [ui_banco](https://github.com/aliffauzi/ui_banco)
+* []()
+
+# Outros
+* [HTTP server frameworks for Dart](https://medium.com/flutter-community/web-server-frameworks-for-dart-197a073299eb)
+* [morioh](https://morioh.com/courses)
+* [How to get started with Flutter in 40 days: The complete beginner’s guide](https://levelup.gitconnected.com/how-to-get-started-with-flutter-in-40-days-the-complete-beginners-guide-f6d69f7bb058)
+* [The Boring Flutter Development Show](https://www.youtube.com/watch?v=yr8F2S3Amas&list=PLOU2XLYxmsIK0r_D-zWcmJ1plIcDNnRkK&ab_channel=GoogleDevelopers)
+* [Flutter Gems](https://fluttergems.dev/indicators-loading-refresh-progress-page/)
+* [flutter-development-roadmap](https://github.com/Tarikul711/flutter-development-roadmap)
+* [Flutter Day](https://events.withgoogle.com/flutter-day/codelabs/#content)
+* []()
+
+# UI
+* [Master Flutter Essentials: Intensify Powerful UIs](https://medium.com/flutter-community/master-flutter-essentials-intensify-powerful-uis-d2e2aa6c79b8)
+* [Drawing Custom Shapes With CustomPainter in Flutter](https://www.raywenderlich.com/7560981-drawing-custom-shapes-with-custompainter-in-flutter)
+* [Ui Flutter](https://uiflutter.com/page/2)
+[]()
+
+# AWS
+* [Criar uma aplicação flutter com AWS](https://aws.amazon.com/pt/getting-started/hands-on/build-flutter-app-amplify/)
+[]()
+[]()
+[]()
+
 ## Articles
 
 ### Introduction
