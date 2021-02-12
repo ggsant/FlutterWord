@@ -9,10 +9,54 @@
 
 **UI**
 **WIDGETS**
-- [ ] Statelss Widget
-- [ ] StateFull Widget
+- [x] Stateless Widget: 
+    - [x] Widget, 
+    - [x] Parametros, 
+    - [x] Arvore de widgets.
+
+- [x] StateFull Widget: 
+    - [x] Estado, 
+    - [x] Hot reload, 
+    - [x] SetState, 
+    - [x] Ciclo de vida, 
+    - [x] CreateState, 
+    - [x] InitState, 
+    - [x] Build,  
+    - [x] DidUpdateWidget,
+    - [x] Dispose
+
+- [x] Inherited Widget
+    - [x] BuildContext
+    - [x] Inherited Widgets que utilizamos mesmo sem saber: 
+        - [x] FocusScope
+        - [x] MediaQuery
+        - [x] Form
+        - [x] Localizations
+        - [x] Navigator
+    - [x] Inherited Widget
+    - [ ] Inherited Model 
+    - [x] Ciclo de vida 
+        - [x] DidChangeDependencies
+        - [x] WidgetsBinding
+            - [x] PostFrameCallBack 
+- [ ] Considerações de desempenho
+    - [ ] Separação de responsibilidade e estados
+    - [ ] Componentização
+    - [ ] Imutabilidade
+    - [ ] Uso de constantes 
+    - [ ] Canonizaçao
+    - [ ] Cachear subárvores
+- [ ] Persistencia de Estado
+    - [ ] PageStorage
+    - [ ] PageStorageKey
+    - [ ] KeepAlive 
+    - [ ] AutomaticKeepAliveClientStateMixin 
+- [ ] Problemas comuns 
+    - [ ] Problemas ao encontrar o context do Scaffold
+    - [ ] Criando Builder
+    
+
 - [ ] Accessibility
-- [ ] Inherited Widget
     - [ ] Theming
     - [ ] Localization
 - [ ] Style 
