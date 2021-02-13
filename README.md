@@ -56,11 +56,11 @@
     - [ ] Criando Builder
     
 
-- [ ] Accessibility
-    - [ ] Theming
+- [X] Accessibility
+    - [X] Theming
     - [ ] Localization
-- [ ] Style 
-    - [ ] Material
+- [X] Style 
+    - [X] Material
     - [ ] Cupertino
 
 **ASSETS**
@@ -150,6 +150,28 @@
 []()
 []()
 []()
+
+# Roadmap
+
+# Design
+
+A maneira como o Flutter faz a parte gráfica dos widgets independe da plataforma que está sendo utilizada, então se você utilizar o Material dentro do ìOS terá o mesmo resultado que no Android (e quaaaaase vice-versa), na documentação fica até um pouco claro isso:
+
+    The Material design language was created for any platform, not just Android. When you write a Material app in Flutter, it has the Material look and feel on all devices, even iOS.
+Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visual, entretanto, as fontes serão diferentes, dado que a Apple tem o direito / licença em cima das fontes do sistema
+
+    You can technically run a Cupertino app on either Android or iOS, but (due to licensing issues) Cupertino won't have the correct fonts on Android. For this reason, use an iOS-specific device when writing a Cupertino app.
+
+**Material Design**
+[Dark Theme](https://material.io/design/color/dark-theme.html)
+[The color system](https://material.io/design/color/the-color-system.html)
+[about sound](https://material.io/design/sound/about-sound.html#principles)
+[System icons](https://material.io/design/iconography/system-icons.html)
+[Material Widgets](https://flutter.dev/docs/development/ui/widgets/material)
+
+**Cupertino**
+[Widgets Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
+[Codelabs Cupertino](https://codelabs.developers.google.com/codelabs/flutter-cupertino#0)
 
 # Sign in 
 * [Google sign-in & Firebase authentication using Flutter](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)
