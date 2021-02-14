@@ -153,6 +153,22 @@
 
 # Roadmap
 
+# Statefull e Stateless Widgets
+[Por que Widgets no Flutter?](https://medium.com/flutter-community/why-widgets-in-flutter-45dd4964df03)
+[Entendendo os tipos de Widgets do Flutter](https://medium.com/tableless/entendendo-os-tipos-de-widgets-do-flutter-de9bb9296bf6)
+[Entenda o BuildContext do Flutter](https://medium.com/flutterando/entenda-o-buildcontext-do-flutter-895e4d01054e)
+[Flutter — Lifecycle — Parte 1](https://medium.com/luke-silva/flutter-lifecycle-parte-1-dcea2b5d5d88)
+
+# Inherited Widget 
+[InheritedWidget in Flutter](https://medium.com/@codinghive.dev/inheritedwidget-in-flutter-ffb64cc561dd)
+[Widgets herdados em profundidade](https://medium.com/swlh/inherited-widgets-in-depth-2151aa136f5c)
+[Widget - Estado - BuildContext - InheritedWidget](https://medium.com/flutter-community/widget-state-buildcontext-inheritedwidget-898d671b7956)
+[Como funciona o Inherited Widget?](https://medium.com/manabie/how-does-flutter-inheritedwidget-work-3123f9d74c15)
+[Inheriting Widgets](https://medium.com/@mehmetf_71205/inheriting-widgets-b7ac56dbbeb1)
+[How to use inherited widget in Flutter](https://medium.com/@mnhmasum/flutter-inherited-widget-c9cc8c95c846)
+[Managing Flutter Application State With InheritedWidgets](https://medium.com/flutter/managing-flutter-application-state-with-inheritedwidgets-1140452befe1)
+
+
 # Design
 
 A maneira como o Flutter faz a parte gráfica dos widgets independe da plataforma que está sendo utilizada, então se você utilizar o Material dentro do ìOS terá o mesmo resultado que no Android (e quaaaaase vice-versa), na documentação fica até um pouco claro isso:
