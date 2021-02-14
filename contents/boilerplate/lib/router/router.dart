@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 const String homeRoute = '/';
 const String themeDemoRoute = '/themeDemoRoute';
 const String materialDesignRoute = '/loginMaterialDesignRoute';
+const String cupertinoDesignRoute = '/cupertinoDesignRoute';
 
 MaterialPageRoute pushNewRoutes(String routeName) {
   WidgetBuilder screen;
@@ -18,6 +19,9 @@ MaterialPageRoute pushNewRoutes(String routeName) {
       screen = (BuildContext context) => ThemeDemo();
       break;
     case materialDesignRoute:
+      screen = (BuildContext context) => LoginPage();
+      break;
+    case cupertinoDesignRoute:
       screen = (BuildContext context) => LoginPage();
       break;
     default:

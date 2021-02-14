@@ -61,7 +61,7 @@
     - [ ] Localization
 - [X] Style 
     - [X] Material
-    - [ ] Cupertino
+    - [X] Cupertino
 
 **ASSETS**
 - [ ] Fonts
@@ -168,10 +168,18 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 [about sound](https://material.io/design/sound/about-sound.html#principles)
 [System icons](https://material.io/design/iconography/system-icons.html)
 [Material Widgets](https://flutter.dev/docs/development/ui/widgets/material)
+[Introdução ao Material Design](https://medium.com/uxmotiondesign/introdu%C3%A7%C3%A3o-ao-material-design-451d9f701eeb)
+[Google Design](https://medium.com/google-design)
+[Um guia para o design de materiais do Google](https://medium.com/beginners-guide-to-mobile-web-development/a-guide-to-google-material-design-977315149ea5)
+[Recomendamos componentes de design de material](https://medium.com/androiddevelopers/we-recommend-material-design-components-81e6d165c2dd)
+[Using Material Design with Flutter](https://www.youtube.com/watch?v=DL0Ix1lnC4w&ab_channel=GoogleDevelopers)
 
 **Cupertino**
 [Widgets Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino)
 [Codelabs Cupertino](https://codelabs.developers.google.com/codelabs/flutter-cupertino#0)
+[Cupertino app](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
+[Aplicativo Flutter 1.2 Cupertino](https://medium.com/pslove/flutter-1-2-cupertino-app-cb4759013370)
+[Flutter Cupertino App](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
 
 # Sign in 
 * [Google sign-in & Firebase authentication using Flutter](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)
