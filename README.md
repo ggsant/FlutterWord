@@ -39,21 +39,21 @@
         - [x] DidChangeDependencies
         - [x] WidgetsBinding
             - [x] PostFrameCallBack 
-- [ ] Considerações de desempenho
-    - [ ] Separação de responsibilidade e estados
-    - [ ] Componentização
-    - [ ] Imutabilidade
-    - [ ] Uso de constantes 
-    - [ ] Canonizaçao
-    - [ ] Cachear subárvores
+- [x] Considerações de desempenho
+    - [x] Separação de responsibilidade e estados
+    - [x] Componentização
+    - [x] Imutabilidade
+    - [x] Uso de constantes 
+    - [x] Canonizaçao
+    - [x] Cachear subárvores
 - [ ] Persistencia de Estado
     - [ ] PageStorage
     - [ ] PageStorageKey
     - [ ] KeepAlive 
     - [ ] AutomaticKeepAliveClientStateMixin 
-- [ ] Problemas comuns 
-    - [ ] Problemas ao encontrar o context do Scaffold
-    - [ ] Criando Builder
+- [x] Problemas comuns 
+    - [x] Problemas ao encontrar o context do Scaffold
+    - [x] Criando Builder
     
 
 - [X] Accessibility
@@ -167,7 +167,8 @@
 [Inheriting Widgets](https://medium.com/@mehmetf_71205/inheriting-widgets-b7ac56dbbeb1)
 [How to use inherited widget in Flutter](https://medium.com/@mnhmasum/flutter-inherited-widget-c9cc8c95c846)
 [Managing Flutter Application State With InheritedWidgets](https://medium.com/flutter/managing-flutter-application-state-with-inheritedwidgets-1140452befe1)
-
+[Compartilhando Dados em Flutter: InheritedModel vs InheritedWidget](https://flutter.institute/sharing-data-inheritedmodel-vs-inheritedwidget)
+[inherited Model - doc](https://docs-flutter-io.firebaseapp.com/flutter/widgets/InheritedModel-class.html)
 
 # Design
 
@@ -196,6 +197,16 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 [Cupertino app](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
 [Aplicativo Flutter 1.2 Cupertino](https://medium.com/pslove/flutter-1-2-cupertino-app-cb4759013370)
 [Flutter Cupertino App](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
+
+# Considerações de desempenho
+
+* Const: Usamos para minimizar a alocação de memoria.
+* no geral para ser tudo imutável para seguir as boas práticas é necessário que todas as propriedades de uma classe sejam final. Assim só podemos dar o valor dessas variaveis uma vez, que é quando construimos o objeto. 
+
+[O Fardo da Mutabilidade](https://medium.com/flutter-portugal/o-fardo-da-mutabilidade-9acdaa662dc2)
+[Como o uso de construtores 'const' pode melhorar a performance no Flutter?](https://pt.stackoverflow.com/questions/403700/como-o-uso-de-construtores-const-pode-melhorar-a-performance-no-flutter)
+[Flutter Performance Tips (#1): const constructors](https://dev.to/pedromassango/flutter-performance-tips-1-const-constructors-4j41)
+[Const X final](https://forum.flutterando.com.br/d/460-const-x-final/7)
 
 # Sign in 
 * [Google sign-in & Firebase authentication using Flutter](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)

@@ -11,12 +11,14 @@ class ChooseBoilerplate extends StatefulWidget {
 class _ChooseBoilerplateState extends State<ChooseBoilerplate> {
   final List<String> content = <String>[
     'Inherited',
+    'Inherited Model',
     'Theme',
     'Material',
     'Cupertino'
   ];
   final List<String> router = <String>[
     inheritedWidgetRoute,
+    inheritedModelRoute,
     themeDemoRoute,
     materialDesignRoute,
     themeDemoRoute,
