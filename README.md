@@ -34,7 +34,7 @@
         - [x] Localizations
         - [x] Navigator
     - [x] Inherited Widget
-    - [ ] Inherited Model 
+    - [x] Inherited Model 
     - [x] Ciclo de vida 
         - [x] DidChangeDependencies
         - [x] WidgetsBinding
@@ -46,9 +46,9 @@
     - [x] Uso de constantes 
     - [x] Canonizaçao
     - [x] Cachear subárvores
-- [ ] Persistencia de Estado
-    - [ ] PageStorage
-    - [ ] PageStorageKey
+- [X] Persistencia de Estado
+    - [X] PageStorage
+    - [X] PageStorageKey
     - [ ] KeepAlive 
     - [ ] AutomaticKeepAliveClientStateMixin 
 - [x] Problemas comuns 
@@ -207,6 +207,18 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 [Como o uso de construtores 'const' pode melhorar a performance no Flutter?](https://pt.stackoverflow.com/questions/403700/como-o-uso-de-construtores-const-pode-melhorar-a-performance-no-flutter)
 [Flutter Performance Tips (#1): const constructors](https://dev.to/pedromassango/flutter-performance-tips-1-const-constructors-4j41)
 [Const X final](https://forum.flutterando.com.br/d/460-const-x-final/7)
+[Desempenho](https://flutter.dev/docs/perf)
+[Medir o tamanho do seu aplicativo](https://flutter.dev/docs/perf/app-size)
+[Desempenho de renderização](https://flutter.dev/docs/perf/rendering)
+[Metricas de desempenho](https://flutter.dev/docs/perf/metrics)
+[]()
+
+
+# Persistencia de dados 
+**PageStorage**
+[PageStorage](https://api.flutter.dev/flutter/widgets/PageStorage-class.html)
+[PageStorageKey](https://api.flutter.dev/flutter/widgets/PageStorageKey-class.html)
+
 
 # Sign in 
 * [Google sign-in & Firebase authentication using Flutter](https://blog.codemagic.io/firebase-authentication-google-sign-in-using-flutter/)

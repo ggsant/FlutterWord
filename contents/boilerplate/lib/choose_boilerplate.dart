@@ -14,14 +14,14 @@ class _ChooseBoilerplateState extends State<ChooseBoilerplate> {
     'Inherited Model',
     'Theme',
     'Material',
-    'Cupertino'
+    'PageStorage'
   ];
   final List<String> router = <String>[
     inheritedWidgetRoute,
     inheritedModelRoute,
     themeDemoRoute,
     materialDesignRoute,
-    themeDemoRoute,
+    pageStorageRoute,
   ];
 
   @override
