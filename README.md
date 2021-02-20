@@ -58,34 +58,34 @@
 
 - [X] Accessibility
     - [X] Theming
-    - [ ] Localization
+    - [X] Localization
 - [X] Style 
     - [X] Material
     - [X] Cupertino
 
 **ASSETS**
-- [ ] Fonts
+- [x] Fonts
 - [X] Images
-- [ ] SVG
-- [ ] Audio e Video
+- [x] SVG
+- [x] Audio e Video
 
 **Static User Interface**
-- [ ] View
+- [x] View
     - [X] Text
     - [X] Button
     - [X] Image
-- [ ] ViewGroup 
+- [x] ViewGroup 
     - [X] Container
     - [X] Row
     - [X] Column
     - [X] Expanded
-    - [ ] ConstrainedBox
+    - [x] ConstrainedBox
 
 
 **Dynamic User Interface**
-- [ ] ListView
-- [ ] GridView
-- [ ] ExpansionTitle 
+- [X] ListView
+- [X] GridView
+- [X] ExpansionTile 
 
 **Animations**
 - [ ] AnimatedWidget
@@ -142,16 +142,10 @@
 - [ ] Storage
 - [ ] Messaging
 
-
-
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-
 # Roadmap
+
+# Conteudos de computação
+
 
 # Statefull e Stateless Widgets
 [Por que Widgets no Flutter?](https://medium.com/flutter-community/why-widgets-in-flutter-45dd4964df03)
@@ -179,7 +173,6 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 
     You can technically run a Cupertino app on either Android or iOS, but (due to licensing issues) Cupertino won't have the correct fonts on Android. For this reason, use an iOS-specific device when writing a Cupertino app.
 
-**Material Design**
 [Dark Theme](https://material.io/design/color/dark-theme.html)
 [The color system](https://material.io/design/color/the-color-system.html)
 [about sound](https://material.io/design/sound/about-sound.html#principles)
@@ -197,6 +190,22 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 [Cupertino app](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
 [Aplicativo Flutter 1.2 Cupertino](https://medium.com/pslove/flutter-1-2-cupertino-app-cb4759013370)
 [Flutter Cupertino App](https://medium.com/nusanet/flutter-cupertino-app-76c33768c242)
+
+**Theming**
+[Flutter: Temas](https://medium.com/@mx_tino/flutter-themes-9cebc0fecd1d)
+[Temas em Flutter: Parte 1](https://medium.com/flutter-community/themes-in-flutter-part-1-75f52f2334ea)
+[Temas em Flutter: Parte 2](https://medium.com/flutter-community/themes-in-flutter-part-2-706382bc32c5)
+[Flutter dynamic themes in 3 lines!](https://medium.com/swlh/flutter-dynamic-themes-in-3-lines-c3b375f292e3)
+[Trocar temas em aplicativos Flutter](https://medium.com/flutter-community/switching-themes-in-flutter-apps-like-a-fox-6a59f6705e4b)
+[Temas dinâmicos com Flutter](https://medium.com/flutter-community/dynamic-theming-with-flutter-78681285d85f)
+
+# Localizations
+[Internacionalizando aplicativos Flutter](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+[Localizations Class](https://api.flutter.dev/flutter/widgets/Localizations-class.html)
+[Flutter Localization](https://medium.com/@aruny3/flutter-localization-eae4c45acad)
+[Internacionalização Flutter da maneira mais fácil - usando Provider e JSON](https://medium.com/flutter-community/flutter-internationalization-the-easy-way-using-provider-and-json-c47caa4212b2)
+[]()
+[]()
 
 # Considerações de desempenho
 
@@ -218,6 +227,38 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 **PageStorage**
 [PageStorage](https://api.flutter.dev/flutter/widgets/PageStorage-class.html)
 [PageStorageKey](https://api.flutter.dev/flutter/widgets/PageStorageKey-class.html)
+
+# Assets 
+[Fonts](https://flutter.dev/docs/cookbook/design/fonts)
+[Como usar uma fonte personalizada em um aplicativo Flutter](https://suragch.medium.com/how-to-use-a-custom-font-in-a-flutter-app-911763c162f5)
+[Como incluir imagens em seu aplicativo Flutter](https://suragch.medium.com/how-to-include-images-in-your-flutter-app-863889fc0b29)
+[Images](https://api.flutter.dev/flutter/widgets/Image-class.html)
+[Como adicionar imagens ao seu aplicativo Flutter](https://medium.com/flutter-community/how-to-add-images-to-your-flutter-application-242926d98fdc)
+[SVG](https://medium.com/flutter-community/using-svg-in-flutter-3dcf7b1dd713)
+[Audio]()
+[Plug-in Flutter Sound (gravador e reprodutor de áudio)](https://medium.com/codechai/flutter-sound-plugin-audio-recorder-player-e5a455a8beaf)
+[Rumo ao suporte de áudio total no Flutter](https://medium.com/flutter-community/towards-full-audio-support-in-flutter-5d15800cdb8b)
+[Audio Player in Flutter](https://medium.com/vijay-r/audio-player-in-flutter-12501fb9585d)
+[Audio And Video Player Application Using Flutter](https://medium.com/@p.rajeshbabu6666/audio-and-video-player-application-using-flutter-4be625817755)
+[A Comprehensive Guide to Playing Local mp3 Files (With Seek Functionality) in Flutter](https://medium.com/@pongpiraupra/a-comprehensive-guide-to-playing-local-mp3-files-with-seek-functionality-in-flutter-7730a453bb1a)
+[Flutter e YouTube](https://medium.com/codechai/flutter-and-youtube-5d8f870370ae)
+[Ativos, imagens e widgets de ícones](https://flutter.dev/docs/development/ui/widgets/assets)
+
+# Widgets - User Interface
+**text**
+[Beginners Guide To Text Styling in Flutter](https://medium.com/flutter-community/beginners-guide-to-text-styling-in-flutter-3939085d6607)
+[Como a edição de texto funciona internamente no Flutter](https://medium.com/flutter-community/how-text-editing-works-internally-in-flutter-45cde5df54b4)
+[Classe TextTheme](https://api.flutter.dev/flutter/material/TextTheme-class.html)
+[Classe TextStyle](https://api.flutter.dev/flutter/painting/TextStyle-class.html)
+**buttons**
+[Anatomy of Material Buttons in Flutter (PART 1)](https://medium.com/codechai/anatomy-of-material-buttons-in-flutter-first-part-40eb790979a6)
+[Anatomia dos botões de material em vibração (PARTE 2)](https://medium.com/codechai/anatomy-of-material-buttons-in-flutter-second-part-c2f32baaa9a5)
+[Widgets Flutter (botões)](https://medium.com/flutter-community/flutter-widgets-buttons-the-whole-picture-5662a3b58b8f)
+[Os Novos Botões de Material na Versão 1.22 do Flutter](https://medium.com/better-programming/discover-flutter-new-material-buttons-in-flutter-version-1-22-39b8f1887d8)
+[Flutter RaisedButton cookbook](https://medium.com/flutter-community/flutter-raisedbutton-cookbook-7c3d4a82b26f)
+[Botões - Material](https://material.io/components/buttons/flutter#outlined-button)
+[Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+[Flutter Cheat Sheet](https://github.com/Temidtech/Flutter-Cheat-Sheet)
 
 
 # Sign in 
@@ -303,7 +344,7 @@ Entretanto ao usar o Cupertino dentro do Android teremos a mesma interface visua
 * [flutter architecture samples](https://github.com/brianegan/flutter_architecture_samples)
 * [S.O.L.I.D The first 5 principles of Object Oriented Design with Dart](https://medium.com/flutter-community/s-o-l-i-d-the-first-5-principles-of-object-oriented-design-with-dart-f31d62135b7e)
 * [Flutter and Clean Architecture](https://rodrigolmti.medium.com/clean-architecture-no-flutter-1888c4baa6bc)
-[]()
+[Desvendando a Arquitetura Limpa de Uncle Bob](https://deividchari.medium.com/desvendando-a-arquitetura-limpa-de-uncle-bob-3e60d9aa9cce)
 []()
 []()
 []()
