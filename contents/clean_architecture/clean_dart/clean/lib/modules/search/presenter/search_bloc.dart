@@ -1,28 +1,25 @@
 import 'package:bloc/bloc.dart';
-import 'package:clean_dart_github_search/app/modules/search/domain/usecases/search_by_text.dart';
+import 'package:clean/modules/search/domain/usecases/search_by_text.dart';
+import 'package:clean/modules/search/presenter/states/search_state.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:rxdart/rxdart.dart';
 
-import 'states/search_state.dart';
-
-part 'search_bloc.g.dart';
-
 @Injectable()
 class SearchBloc extends Bloc<String, SearchState> implements Disposable {
-  final SearchByText searchByText;
+  final SearchByText usecase;
 
-  SearchBloc(this.searchByText) : super(const StartState());
+  SearchBloc(this.usecase) : super(const StartState());
 
   @override
-  Stream<SearchState> mapEventToState(String textSearch) async* {
-    if (textSearch.isEmpty) {
+  Stream<SearchState> mapEventToState(String sear) async* {
+    if (sear.isEmpty) {
       yield StartState();
       return;
     }
 
     yield const LoadingState();
 
-    var result = await searchByText(textSearch);
+    var result = await usecase(sear);
     yield result.fold(
       (failure) => ErrorState(failure),
       (success) => SuccessState(success),

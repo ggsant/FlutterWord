@@ -1,5 +1,5 @@
-import 'package:clean_dart_github_search/app/modules/search/domain/entities/result.dart';
-import 'package:clean_dart_github_search/app/modules/search/domain/errors/erros.dart';
+import 'package:clean/modules/search/domain/entities/result_search.dart';
+import 'package:clean/modules/search/domain/errors/errors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -12,22 +12,25 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends ModularState<SearchPage, SearchBloc> {
-  Widget _buildList(List<Result> list) {
+  Widget _buildList(List<ResultSearch> list) {
     return ListView.builder(
       itemCount: list.length,
       itemBuilder: (_, index) {
         var item = list[index];
         return ListTile(
-          leading: CircleAvatar(
-            backgroundImage: NetworkImage(item.image),
-          ),
-          title: Text(item.nickname),
+          leading: item.image == null
+              ? Container()
+              : CircleAvatar(
+                  backgroundImage: NetworkImage(item.image),
+                ),
+          title: Text(item.title ?? ""),
+          subtitle: Text(item.content ?? ""),
         );
       },
     );
   }
 
-  Widget _buildError(Failure error) {
+  Widget _buildError(FailureSearch error) {
     if (error is EmptyList) {
       return Center(
         child: Text('Nada encontrado'),
@@ -46,9 +49,7 @@ class _SearchPageState extends ModularState<SearchPage, SearchBloc> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Github Search"),
-      ),
+      appBar: AppBar(title: Text("Github Search")),
       body: Column(
         children: <Widget>[
           Padding(

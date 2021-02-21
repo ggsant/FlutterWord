@@ -1,5 +1,5 @@
-import 'package:clean_dart_github_search/app/modules/search/domain/entities/result.dart';
-import 'package:clean_dart_github_search/app/modules/search/domain/errors/erros.dart';
+import 'package:clean/modules/search/domain/entities/result_search.dart';
+import 'package:clean/modules/search/domain/errors/errors.dart';
 
 abstract class SearchState {}
 
@@ -12,11 +12,11 @@ class LoadingState implements SearchState {
 }
 
 class ErrorState implements SearchState {
-  final Failure error;
+  final FailureSearch error;
   const ErrorState(this.error);
 }
 
 class SuccessState implements SearchState {
-  final List<Result> list;
+  final List<ResultSearch> list;
   const SuccessState(this.list);
 }
