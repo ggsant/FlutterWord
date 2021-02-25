@@ -1,29 +1,20 @@
+import 'package:boilerplate/router/router.dart';
+import 'package:boilerplate/theme/app_state_notifier.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'theme/app_state_notifier.dart';
-import 'router/router.dart';
 
-class ChooseBoilerplate extends StatefulWidget {
+import 'package:provider/provider.dart';
+
+class Draws extends StatefulWidget {
   @override
-  _ChooseBoilerplateState createState() => _ChooseBoilerplateState();
+  _DrawsState createState() => _DrawsState();
 }
 
-class _ChooseBoilerplateState extends State<ChooseBoilerplate> {
+class _DrawsState extends State<Draws> {
   final List<String> content = <String>[
-    'Inherited',
-    'Inherited Model',
-    'Theme',
-    'Material',
-    'PageStorage',
-    'Custom Painter'
+    'Clock',
   ];
   final List<String> router = <String>[
-    inheritedWidgetRoute,
-    inheritedModelRoute,
-    themeDemoRoute,
-    materialDesignRoute,
-    pageStorageRoute,
-    customPainterRoute,
+    clockRouter,
   ];
 
   @override
@@ -32,7 +23,7 @@ class _ChooseBoilerplateState extends State<ChooseBoilerplate> {
       backgroundColor: Theme.of(context).backgroundColor,
       appBar: AppBar(
         title: Text(
-          'FlutterWord',
+          'Custom Paint',
           style: Theme.of(context).textTheme.headline6,
         ),
         centerTitle: true,
